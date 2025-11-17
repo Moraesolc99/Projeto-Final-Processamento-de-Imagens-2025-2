@@ -29,7 +29,8 @@ O projeto explorou duas metodologias distintas para classificação de imagens:
 
 ## Arquitetura de Software e Desenvolvimento
 
-Para otimizar a execução e cumprir a entrega sem o *dataset*, foi utilizada uma **abordagem de script único e auto-contido** no Google Colab. Todas as funções de pré-processamento, definição do modelo (ResNet50) e avaliação (cálculo de métricas) estão integradas no arquivo `.ipynb`, garantindo a reprodutibilidade completa e o atendimento aos requisitos metodológicos, sem a necessidade de uma arquitetura modular baseada em *pipeline* para esta entrega.
+Para otimizar a execução e cumprir a entrega sem o *dataset*, foi utilizada uma **abordagem de script único e auto-contido** no Google Colab. Todas as funções de pré-processamento, definição do modelo (ResNet50) e avaliação (cálculo de métricas) estão integradas no arquivo `.ipynb`, garantindo a reprodutibilidade completa e o atendimento aos requisitos.
+
 ## Links de Entrega
 
 * **Link para o Repositório do Projeto (Código e Vídeo):**
