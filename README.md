@@ -90,7 +90,7 @@ Coffee Bean Dataset (4 classes):
 ---
 
 ## Área de Execução
-Projeto foi inteirameente feito no Colab:  
+Projeto foi inteiramente feito no Colab:  
 
 [Colab](https://colab.research.google.com/drive/1W4OuRWsK1E7G1SDfRYSoSpAB7yUgxdXg?usp=sharing)
 
