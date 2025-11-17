@@ -27,6 +27,9 @@ O projeto explorou duas metodologias distintas para classificação de imagens:
 | **CNN (Fine-Tuning)** | ResNet50 | **0.5000** | Resultado esperado. O modelo não conseguiu aprender a distinção devido ao dataset ser composto por imagens pretas idênticas (simulação de dados nulos), resultando em desempenho aleatório (50%). |
 | **Clássica** | LBP + k-NN | **1.0000** | Resultado excelente, obtido pela simplicidade das características visuais (círculos vs. quadrados) no dataset simulado. |
 
+## Arquitetura de Software e Desenvolvimento
+
+Para otimizar a execução e cumprir a entrega sem o *dataset*, foi utilizada uma **abordagem de script único e auto-contido** no Google Colab. Todas as funções de pré-processamento, definição do modelo (ResNet50) e avaliação (cálculo de métricas) estão integradas no arquivo `.ipynb`, garantindo a reprodutibilidade completa e o atendimento aos requisitos metodológicos, sem a necessidade de uma arquitetura modular baseada em *pipeline* para esta entrega.
 ## Links de Entrega
 
 * **Link para o Repositório do Projeto (Código e Vídeo):**
@@ -37,6 +40,14 @@ O projeto explorou duas metodologias distintas para classificação de imagens:
 
 ## Instruções de Uso
 
-1.  **Pré-requisitos:** Instalar o Python e configurar o ambiente de execução para usar **GPU** no Google Colab.
-2.  **Execução:** Abrir o notebook `.ipynb` no Google Colab.
-3.  **Ordem:** Executar as células sequencialmente, da Célula 1 à Célula 5, após verificar que a **Célula 1 (Instalação e Importações)** foi atualizada com a correção da função `preprocess_input`.
+O projeto foi desenvolvido para ser executado no Google Colab.
+
+1.  **Pré-requisitos:**
+    * Abrir o arquivo **`Projeto_Final_Processamento_de_Imagens_2025_2_Octavio_Moraes_2268108.ipynb`** no Google Colab.
+    * Configurar o ambiente de execução (Runtime) para utilizar **GPU** (por exemplo, T4 ou V100), essencial para o treinamento da ResNet50.
+
+2.  **Execução Sequencial:**
+    * O notebook é estruturado em **5 Células** para demonstrar as duas abordagens. As células devem ser executadas em ordem, do topo para o final.
+    * **Célula 1 (Instalação e Importações):** Deve ser a primeira a ser executada. A versão final já contém a correção para a função `preprocess_input`.
+    * **Célula 2 (Simulação do Dataset):** Cria a estrutura de pastas (`data_cnn`) e as imagens simuladas, garantindo que o código seja auto-contido.
+    * **Célula 3 a 5:** Contêm a implementação do modelo **ResNet50 com Fine-Tuning** e a geração do relatório final de métricas.
