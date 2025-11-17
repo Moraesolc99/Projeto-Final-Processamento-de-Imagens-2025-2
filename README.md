@@ -29,13 +29,13 @@ O projeto explorou duas metodologias distintas para classificação de imagens, 
 
 ## Links de Entrega
 
-* **Link para o Repositório do Código (sem o Dataset) e Vídeo:**
+* **Link para o Repositório do Projeto (Código e Vídeo):**
     * [GitHub](https://github.com/Moraesolc99/Projeto-Final-Processamento-de-Imagens-2025-2)
 
-* **Link para o Dataset ([Colab](https://colab.research.google.com/drive/19xC8svPTGK4XrVKqKeQxhBt0O0DT_q88?usp=sharing)):**
-    * O dataset utilizado neste projeto foi criado via código Python (simulação de arquivos .png pretos) para atender ao requisito mínimo de classes, mas em um ambiente real, seria necessário um link público.
+* **Link Direto para o Notebook do Colab (Execução):**
+    *  [Colab](https://colab.research.google.com/drive/19xC8svPTGK4XrVKqKeQxhBt0O0DT_q88?usp=sharing)
 
-## (Opcional) Instruções de Uso
+## Instruções de Uso
 
 1.  **Pré-requisitos:** Instalar o Python e configurar o ambiente de execução para usar **GPU** no Google Colab.
 2.  **Execução:** Abrir o notebook `.ipynb` no Google Colab.
