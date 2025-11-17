@@ -5,7 +5,7 @@ Octávio Luís Conejo de Moraes - RA: 2268108
 
 ## Descrição da Abordagem Utilizada
 
-O projeto explorou duas metodologias distintas para classificação de imagens, utilizando as restrições de métodos diferentes dos apresentados em aula:
+O projeto explorou duas metodologias distintas para classificação de imagens:
 
 ### 1. Abordagem Clássica (Extração de Características + Classificação)
 * **Extração de Características:** Utilização do descritor **Local Binary Patterns (LBP)**, focado em extrair padrões de textura, como alternativa ao HOG e SIFT.
