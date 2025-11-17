@@ -84,7 +84,15 @@ Código completo e vídeo da apresentação:
 
 ## Dataset Utilizado
 Coffee Bean Dataset (4 classes):  
+
 [coffee-bean-dataset](https://www.kaggle.com/datasets/gpiosenka/coffee-bean-dataset-resized-224-x-224?resource=download)
+
+---
+
+## Área de Execução
+Projeto foi inteirameente feito no Colab:  
+
+[Colab](https://colab.research.google.com/drive/1W4OuRWsK1E7G1SDfRYSoSpAB7yUgxdXg?usp=sharing)
 
 ---
 
