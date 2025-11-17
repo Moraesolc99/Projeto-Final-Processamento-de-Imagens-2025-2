@@ -129,9 +129,3 @@ Ao final da execução você verá:
 - Acurácia final  
 
 ---
-
-## Caso prefira executar em uma máquina local:
-
-```bash
-pip install -r requirements.txt
-python main.py
