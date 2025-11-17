@@ -13,7 +13,7 @@ O projeto explorou duas metodologias distintas para classificação de imagens:
 * **Dataset Utilizado:** Simulação de 10 imagens simples (Círculos vs. Quadrados).
 
 ### 2. Abordagem com Redes Neurais Convolucionais (CNN)
-* **Modelo Utilizado:** **ResNet50** pré-treinado na base ImageNet (diferente do MobileNet).
+* **Modelo Utilizado:** **ResNet50** pré-treinado na base ImageNet.
 * **Estratégia:** **Transfer Learning** com **Fine-Tuning**.
     * As camadas convolucionais da ResNet50 foram congeladas.
     * O classificador original foi substituído por uma nova camada de Global Average Pooling seguida por uma camada Densa de 128 neurônios e a camada de saída *softmax* para duas classes.
