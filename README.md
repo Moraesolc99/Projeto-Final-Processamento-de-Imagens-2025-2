@@ -30,7 +30,6 @@ Este projeto realiza a classificação de imagens do **Coffee Beans Dataset** ut
 ## Bibliotecas Utilizadas
 - Python 3  
 - NumPy  
-- OpenCV  
 - scikit-image  
 - scikit-learn  
 - TensorFlow / Keras  
@@ -76,9 +75,9 @@ Essas características alimentam um classificador **k-NN**.
 ---
 
 ## Repositório do Projeto
-Código completo e vídeo (.zip) da apresentação:
+Código completo:
 
-**[GITHUB](https://github.com/Moraesolc99/Projeto-Final-Processamento-de-Imagens-2025-2)**
+**[GitHub](https://github.com/Moraesolc99/Projeto-Final-Processamento-de-Imagens-2025-2)**
 
 ---
 
