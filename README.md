@@ -76,7 +76,7 @@ Essas características alimentam um classificador **k-NN**.
 ---
 
 ## Repositório do Projeto
-Código completo e vídeo da apresentação:
+Código completo e vídeo (.zip) da apresentação:
 
 **[GITHUB](https://github.com/Moraesolc99/Projeto-Final-Processamento-de-Imagens-2025-2)**
 
@@ -85,14 +85,21 @@ Código completo e vídeo da apresentação:
 ## Dataset Utilizado
 Coffee Bean Dataset (4 classes):  
 
-[coffee-bean-dataset](https://www.kaggle.com/datasets/gpiosenka/coffee-bean-dataset-resized-224-x-224?resource=download)
+**[coffee-bean-dataset](https://www.kaggle.com/datasets/gpiosenka/coffee-bean-dataset-resized-224-x-224?resource=download)**
 
 ---
 
 ## Área de Execução
 Projeto foi inteiramente feito no Colab:  
 
-[Colab](https://colab.research.google.com/drive/1W4OuRWsK1E7G1SDfRYSoSpAB7yUgxdXg?usp=sharing)
+**[Colab](https://colab.research.google.com/drive/1W4OuRWsK1E7G1SDfRYSoSpAB7yUgxdXg?usp=sharing)**
+
+---
+
+## Vídeo Apresentação
+Vídeo para Apresentação do projeto final:
+
+**[YouTube](https://youtu.be/ouOBZ1WYXgk)**
 
 ---
 
@@ -104,7 +111,7 @@ Projeto foi inteiramente feito no Colab:
 
 ### 2. Envie o dataset
 - Baixe o dataset no Kaggle  
-- Coloque o arquivo `coffee.zip` dentro do Colab:
+- Coloque o arquivo `coffee.zip` (colocar o nome do arquivo .zip) dentro do Colab:
   - Menu lateral → **Arquivos**  
   - Clique no botão **Upload**  
   - Envie **coffee.zip**
